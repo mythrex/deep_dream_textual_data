@@ -1,0 +1,7 @@
+ckpts/*.ckpt filter=lfs diff=lfs merge=lfs -text
+data/*.csv filter=lfs diff=lfs merge=lfs -text
+.vector_cache/glove.6B.*.txt filter=lfs diff=lfs merge=lfs -text
+.vector_cache/glove.6B.100d.txt.pt filter=lfs diff=lfs merge=lfs -text
+.vector_cache/glove.6B.100d.txt filter=lfs diff=lfs merge=lfs -text
+ckpts/model.ckpt filter=lfs diff=lfs merge=lfs -text
+data/IMDB[[:space:]]Dataset.csv filter=lfs diff=lfs merge=lfs -text
