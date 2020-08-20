@@ -117,7 +117,7 @@ def get_word_embeddings(pos_neg_words, sentences_embedding_steps, text, step=1, 
     if(debug):
         vectors = list(pos_neg_words['positive']) + list(pos_neg_words['negative']) + list(
             map(lambda x: f"step_{x+1}", range(len(steps))))
-        with open('vector.tsv', 'w') as f:
+        with open('./embeddings/vocab.tsv', 'w') as f:
             f.write('\n'.join(vectors))
 
     return postive_embeddings, negative_embeddings, steps
@@ -138,7 +138,7 @@ def visualize_embeddings(pos_neg_words,
     embedding_arr = np.concatenate([pos, neg, steps], axis=0)
 
     if(debug):
-        np.savetxt('embeddings.tsv',
+        np.savetxt('./embeddings/embeddings.tsv',
                    embedding_arr,
                    delimiter='\t')
     # reduce dims
