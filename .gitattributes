@@ -5,3 +5,8 @@ data/*.csv filter=lfs diff=lfs merge=lfs -text
 .vector_cache/glove.6B.100d.txt filter=lfs diff=lfs merge=lfs -text
 ckpts/model.ckpt filter=lfs diff=lfs merge=lfs -text
 data/IMDB[[:space:]]Dataset.csv filter=lfs diff=lfs merge=lfs -text
+readme_data/deep_dream_result.png filter=lfs diff=lfs merge=lfs -text
+readme_data/embedding_projector.png filter=lfs diff=lfs merge=lfs -text
+readme_data/model.png filter=lfs diff=lfs merge=lfs -text
+readme_data/negative.png filter=lfs diff=lfs merge=lfs -text
+readme_data/positive.png filter=lfs diff=lfs merge=lfs -text
