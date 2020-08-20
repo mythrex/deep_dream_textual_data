@@ -46,4 +46,4 @@ Initially sentence embedding as more similar to neutral words like "this, it, ev
 
 ![embedding projector](readme_data/embedding_projector.png)
 
-You can try to explore the embedding and how sentence embedding change its location by clicking on [this link.](https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/mythrex/02f9d3b8575910943b89d9964e7fde56/raw/266f8d01fd72737c7ee53072f8e91b2f2bb7e027/Deep%2520dream%2520text%2520embeddings)
+You can try to explore the embedding and how sentence embedding change its location by clicking on [this link.](https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/mythrex/02f9d3b8575910943b89d9964e7fde56/raw/85e1d59d26662d8166d1fd0edeb2fc7d409f674a/Deep%2520dream%2520text%2520embeddings)
