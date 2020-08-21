@@ -1,6 +1,6 @@
 # Dreaming over text
 
-This repo is released along side my blog: [Dreaming over Text]().
+This repo is released along side my blog: [Dreaming over Text](https://medium.com/p/dreaming-over-text-f6745c829cee?source=email-396d46fdd644--writer.postDistributed&sk=6ae1cf507e60f747254f35374e49a47c).
 
 ## Inspiration
 
