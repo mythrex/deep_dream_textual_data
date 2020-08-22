@@ -1,3 +1,4 @@
 /wandb
 /__pycache__
 /deep_dream/*
+/.vector_cache
