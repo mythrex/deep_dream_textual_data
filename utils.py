@@ -115,8 +115,10 @@ def get_word_embeddings(pos_neg_words, sentences_embedding_steps, text, step=1, 
     steps = sentences_embedding_steps[step][list(range(0, iters, 5))]
 
     if(debug):
-        vectors = list(pos_neg_words['positive']) + list(pos_neg_words['negative']) + list(
-            map(lambda x: f"step_{x+1}", range(len(steps))))
+        pos_words = list(pos_neg_words['positive'])
+        neg_words = list(pos_neg_words['negative'])
+        vectors = ['word\tlabel'] + list(map(lambda x: x+'\tpos', pos_words)) + list(map(lambda x: x+'\tneg', neg_words)) + list(
+            map(lambda x: f"step_{x+1}\tneutral", range(len(steps))))
         with open('./embeddings/vocab.tsv', 'w') as f:
             f.write('\n'.join(vectors))
 
